@@ -18,10 +18,10 @@
   <h1 id='counter'>
     0
   </h1>
-  <button id='minus' > ➖ </button>
-  <button id='plus' > ➕ </button>
-  <button id='heart' > ❤️ </button>
-  <button id='pause' > pause </button>
+  <button id='minus' onclick='decrement();' > ➖ </button>
+  <button id='plus' onclick='increment();'> ➕ </button>
+  <button id='heart'> ❤️ </button>
+  <button id='pause' onclick='pauseEvent();'> pause </button>
 
   <ul class='likes'></ul>
 
@@ -40,6 +40,6 @@
   </div>
 
   <!-- <script src="js/index.min.js"></script> -->
-  <script src="js/challenge.js"></script>
+  <script src="js/challenge.js" defer></script>
 </body>
 </html>
